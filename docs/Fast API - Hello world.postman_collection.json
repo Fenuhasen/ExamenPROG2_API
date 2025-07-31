@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "Hello Fenohasina",
+			"name": "ping",
 			"protocolProfileBehavior": {
 				"disabledSystemHeaders": {
 					"accept": true
@@ -23,43 +23,18 @@
 					}
 				],
 				"url": {
-					"raw": "{{base_url}}/hello",
+					"raw": "{{base_url}}/ping",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"hello"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Welcome",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\"name\": \"Ryan\"}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "{{base_url}}/welcome",
-					"host": [
-						"{{base_url}}"
-					],
-					"path": [
-						"welcome"
+						"ping"
 					]
 				}
 			},
 			"response": []
 		}
+		
 	],
 	"variable": [
 		{
